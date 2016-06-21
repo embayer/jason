@@ -1,0 +1,109 @@
+{
+   "_id": "02fad8e43a0a44ca8a0a0a79c7868c28",
+   "_rev": "1-70c21fcb4d5bf2b61562b6093bf18c13",
+   "choice_str": "b",
+   "first_name": "Jakob",
+   "rand_float": 87.72580081019893,
+   "range_float": 2.4070912688199537,
+   "phone": "+49 679834718946062459",
+   "name_affix": "Prof.",
+   "facebook_url": "https://www.facebook.com/cool-mac",
+   "range_int": 1,
+   "datetime": "2024-02-22T14:48:38.413324Z",
+   "last_name": "Zimmermann",
+   "name_male": "Niklas",
+   "name": "Mia Fischer",
+   "uuid": "02fad8e43a0a44ca8a0a0a79c7868c28",
+   "rand_bool": true,
+   "url": "https://cool-doge.com",
+   "lorem": "Nesciunt do cliche actually, in laboris ex single-origin coffee. Taxidermy bitters esse, actually neutra shabby chic qui photo booth literally mollit tofu helvetica food truck. Kitsch odio crucifix cardigan laboris nostrud, vinyl polaroid scenester letterpress drinking vinegar quinoa. Cold-pressed velit qui anim, chillwave chia +1 tattooed before they sold out cronut. Chambray food truck portland neutra, sapiente ex fugiat mollit kale chips stumptown street art reprehenderit godard yr pitchfork. Odio sapiente salvia, four loko pug gastropub ugh austin cray kogi occaecat pinterest. Humblebrag migas pug, slow-carb mollit kombucha waistcoat seitan dolor authentic post-ironic everyday carry shabby chic distillery.",
+   "md5": "a3cca2b2aa1e3b5b3b5aad99a8529074",
+   "chapters": [
+       {
+           "pages": [
+               {
+                   "p": 1
+               },
+               {
+                   "p": 2
+               },
+               {
+                   "p": 3
+               }
+           ]
+       },
+       {
+           "pages": [
+               {
+                   "p": 1
+               },
+               {
+                   "p": 2
+               },
+               {
+                   "p": 3
+               }
+           ]
+       }
+   ],
+   "my_k": [
+       "Paul Bauer",
+       "Emilia Schulz",
+       "Emily Bauer",
+       "Luisa Schulz",
+       "Lukas Fischer"
+   ],
+   "rand_int": 5,
+   "google+_url": "https://plus.google.com/fuzzy-latte",
+   "email": "lena.schwarz@mailbox.org",
+   "twitter_url": "https://twitter.com/crispy-coconut",
+   "count_pages": 6,
+   "choices_float": 1,
+   "name_female": "Marie",
+   "dict_ref": {
+       "assets": [
+           {
+               "scope": "gallery",
+               "mimeType": "image/jpg",
+               "uuid": "39eb6de2dc5d48208ae7cb7a5d1351e5",
+               "source": "fohrer-claudia.jpg",
+               "md5": "a3cca2b2aa1e3b5b3b5aad99a8529074"
+           }
+       ],
+       "nameAffix": "Prof.",
+       "uuid": "aef9a08e0a9a415393eb6235c7360f37",
+       "name": "Tim Bauer"
+   },
+   "list_choice": "chocolate",
+   "foo": "bar",
+   "array": [
+       {
+           "nameAffix": "Prof.",
+           "uuid": "b7f792841ffd4b9b92fed194d5ad9d6a",
+           "name": "Johanna Schneider"
+       },
+       {
+           "nameAffix": "Prof.",
+           "uuid": "1a7e188cd7e24dc5ae0e35c370029610",
+           "name": "Johanna Schwarz"
+       },
+       {
+           "nameAffix": "Prof.",
+           "uuid": "99e997965ebc42fb9ada709a2a547a51",
+           "name": "Jakob Meyer"
+       },
+       {
+           "nameAffix": "Prof.",
+           "uuid": "165fb835cb2541f8bd80f5e1951d02d8",
+           "name": "Leon Weber"
+       },
+       {
+           "nameAffix": "Prof.",
+           "uuid": "44ac16e2f7194c778545fbac91913ad2",
+           "name": "Julian Schulz"
+       }
+   ],
+   "choice_int": 1,
+   "optional": "Schrödingers Cat",
+   "@couchdb_table": "dummy"
+}

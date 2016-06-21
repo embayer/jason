@@ -1,0 +1,20 @@
+{
+    "@couchdb_db": "bookshelf",
+    "updated": "@datetime",
+    "name": "mindfulness",
+    "category": "Mmw",
+    "description": "@lorem",
+    "categoryLevelDepth": 2,
+    "categoryLevels": [
+        "M",
+        "m"
+    ],
+    "@ref_dict": {
+        "type": "couchdb",
+        "db": "bookshelf",
+        "doc_id": "c1f03e9dec2e40b188fad4fa3feef587",
+        "result_key": "superBookshelf",
+        "keys": ["_id", "name"]
+    },
+    "bookindex": []
+}

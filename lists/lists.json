@@ -1,0 +1,27 @@
+{
+    "adjective": [
+        "cool", "fresh", "fancy", "sparkling", "shiny", "fuzzy", "spicy", "hot", "crispy", "swifty", "sweet", "hot", "fluffy"
+    ],
+    "noun": [
+        "pony", "hipster", "mac", "yolo", "latte", "gadget", "skateboard", "delight", "kitten", "chocolate", "coconut", "cat", "doge", "icecream"
+    ],
+    "male_name": [
+        "Ben", "Luca", "Paul", "Jonas", "Finn", "Leon", "Luis", "Lukas", "Maximilian", "Felix", "Noah", "Elias", "Julian", "Max", "Tim", "Moritz", "Henry", "Niklas", "Philipp", "Jakob"
+    ],
+    "female_name": [
+        "Mia", "Emma", "Hannah", "Sofia", "Anna", "Lea", "Emilia", "Marie", "Lena", "Leonie", "Emily", "Lina", "Amelie", "Sophie", "Lilly", "Luisa", "Johanna", "Laura", "Lara", "Maja"
+    ],
+    "last_name": [
+        "Müller", "Schmidt", "Schneider", "Fischer", "Weber", "Meyer", "Wagner", "Becker", "Schulz", "Hoffmann", "Schäfer", "Koch", "Bauer", "Richter", "Klein", "Wolf", "Schröder", "Neumann", "Schwarz", "Zimmermann"
+    ],
+    "name_affix": [
+        "Prof.", "Dr."
+    ],
+    "lorem": [
+        "Etsy duis chicharrones poutine kale chips qui schlitz nulla waistcoat et. Keytar venmo sriracha, nostrud asymmetrical next level skateboard sed 8-bit. Exercitation small batch retro YOLO cliche ad. Mixtape PBR&B laboris ethical, cornhole laborum kitsch marfa non accusamus id kogi fugiat. Culpa williamsburg non celiac, retro 90's irony dolore offal mustache eu flexitarian 8-bit. Mumblecore poutine twee, literally before they sold out drinking vinegar velit vero pickled ethical food truck. Post-ironic occupy cliche chambray mumblecore keytar.",
+        "Hashtag messenger bag knausgaard, ex pug drinking vinegar sint irure brunch cliche cillum keffiyeh four loko meditation. Lo-fi et jean shorts excepteur sint vero culpa, gluten-free fap polaroid plaid hammock sartorial proident listicle. Flannel sartorial organic labore ullamco. Knausgaard cardigan literally slow-carb, retro marfa listicle sed dolore twee exercitation hella pickled aliquip. Affogato voluptate microdosing, selfies deserunt anim flannel humblebrag keytar vice art party. Shabby chic keffiyeh hammock forage YOLO pinterest minim, enim post-ironic before they sold out. Heirloom butcher placeat exercitation, tempor helvetica elit officia deep v.",
+        "Whatever asymmetrical tousled proident. Occaecat elit quinoa photo booth non butcher. Tacos austin magna, pabst cronut yr paleo. Migas vero typewriter readymade, labore consequat lo-fi blue bottle keytar forage. Biodiesel laboris austin asymmetrical minim. Vice vegan viral bicycle rights 90's commodo umami aesthetic do, fugiat austin magna. Hashtag direct trade lumbersexual, gentrify migas cupidatat marfa exercitation vice portland commodo godard.",
+        "Nesciunt do cliche actually, in laboris ex single-origin coffee. Taxidermy bitters esse, actually neutra shabby chic qui photo booth literally mollit tofu helvetica food truck. Kitsch odio crucifix cardigan laboris nostrud, vinyl polaroid scenester letterpress drinking vinegar quinoa. Cold-pressed velit qui anim, chillwave chia +1 tattooed before they sold out cronut. Chambray food truck portland neutra, sapiente ex fugiat mollit kale chips stumptown street art reprehenderit godard yr pitchfork. Odio sapiente salvia, four loko pug gastropub ugh austin cray kogi occaecat pinterest. Humblebrag migas pug, slow-carb mollit kombucha waistcoat seitan dolor authentic post-ironic everyday carry shabby chic distillery.",
+        "Actually neutra squid, tacos biodiesel humblebrag selfies retro whatever bespoke pop-up iPhone. Keytar tousled you probably haven't heard of them, helvetica typewriter quinoa tote bag echo park offal bitters cronut. Mumblecore polaroid YOLO mustache, kale chips kogi chicharrones pop-up deep v. +1 narwhal intelligentsia, art party migas schlitz semiotics church-key tattooed salvia. Paleo fixie put a bird on it pickled bicycle rights heirloom. Raw denim YOLO retro lumbersexual flannel leggings single-origin coffee, chartreuse scenester tumblr. 3 wolf moon venmo sartorial flannel banjo."
+    ]
+}

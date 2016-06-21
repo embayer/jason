@@ -1,0 +1,30 @@
+{
+    "@couchdb_db": "author",
+    "updated": "@datetime",
+    "name": "@name",
+    "gender": "@choice_str {female | male}",
+    "?nameAffix": "@name_affix",
+    "languages": [ "de" ],
+    "countryOfOrigin": "de",
+    "@iteration_list {fields | 5}": ["@choice_str {noun}"],
+    "bio": "@lorem",
+    "email": "@email",
+    "phoneNumbers": {
+        "mobile": "@phone",
+        "?home": "@phone",
+        "?business": "@phone"
+    },
+    "homepage": "@url",
+    "social": {
+        "facebook": "@url {facebook}",
+        "?twitter": "@url {twitter}",
+        "?googlePlus": "@url {google+}"
+    },
+    "@iteration_list {assets | 2}": [
+        {
+            "attachmentId": "@rand_attachment {image}",
+            "mimeType": "image/jpeg",
+            "scope": "@choice_str {cover | gallery}"
+        }
+    ]
+}

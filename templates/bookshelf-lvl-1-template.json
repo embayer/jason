@@ -1,0 +1,13 @@
+{
+    "@couchdb_db": "bookshelf",
+    "updated": "@datetime",
+    "name": "meditation",
+    "category": "M",
+    "description": "@lorem",
+    "categoryLevelDepth": 1,
+    "categoryLevels": [
+        "M"
+    ],
+    "bookindex": []
+}
+

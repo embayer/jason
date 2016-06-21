@@ -1,0 +1,22 @@
+{
+    "@couchdb_db": "bookshelf",
+    "updated": "@datetime",
+    "name": "selfconfidence",
+    "category": "Mmwa",
+    "description": "@lorem",
+    "categoryLevelDepth": 4,
+    "categoryLevels": [
+        "M",
+        "m",
+        "w",
+        "a"
+    ],
+    "@ref_dict": {
+        "type": "couchdb",
+        "db": "bookshelf",
+        "doc_id": "3a7ccd4c98aa4365976ea35d9ca24135",
+        "result_key": "superBookshelf",
+        "keys": ["_id", "name"]
+    },
+    "bookindex": []
+}

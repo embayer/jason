@@ -1,0 +1,19 @@
+{
+    "@couchdb_db": "bookshelf",
+    "updated": "@datetime",
+    "name": "selfconfidence",
+    "category": "Mmwa",
+    "description": "@lorem",
+    "categoryLevelDepth": 4,
+    "categoryLevels": [
+        "M",
+        "m",
+        "w",
+        "a"
+    ],
+    "superBookshelf": {
+        "uuid": "@uuid",
+        "name": "@choice_str {noun}"
+    },
+    "bookindex": []
+}

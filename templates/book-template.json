@@ -1,0 +1,75 @@
+{
+    "@couchdb_db": "book",
+    "updated": "@datetime",
+    "cover": {
+        "title": "@title",
+        "subtitle": "@title",
+        "assets": [
+            {
+                "attachmentId": "@rand_attachment {image}",
+                "mimeType": "image/jpeg",
+                "scope": "@choice_str {cover | gallery}"
+            }
+        ]
+    },
+    "durationSum": "@range_int {100 | 1000}",
+    "pageCount": "@count_lists {pages}",
+    "chapterCount": "@count_lists {chapters}",
+    "blurb": "@lorem",
+    "published": "@datetime",
+    "availability": "@choice_str {free | mixed | paid}",
+    "language": "de",
+    "@ref_dict": {
+        "type": "couchdb",
+        "db": "bookshelf",
+        "doc_id": "8ea69555aa72411d86eed6d88d18caba",
+        "result_key": "bookshelf",
+        "keys": ["_id", "category", "name"]
+    },
+    "@iteration_list {tags | 5}": ["@choice_str {noun}"],
+    "@ref_list": {
+        "type": "couchdb",
+        "db": "author",
+        "result_key": "authors",
+        "keys": [
+            "name", "nameAffix", "_id", "assets"
+        ],
+        "amount": 2
+    },
+    "@iteration_list {chapters | 1}": [
+        {
+            "uuid": "@uuid",
+            "index": "@index",
+            "availability": "@choice_str {free | mixed | paid}",
+            "proloque": "@lorem",
+            "epiloque": "@lorem",
+            "title": "@title",
+            "subtitle": "@lorem",
+            "abstract": "@lorem",
+            "author": "c9c5b1ae-b42a-4537-be6a-8901f406a58d",
+            "duration": "@range_int {10 | 100}",
+            "level": "@range_int {1 | 10}",
+            "@iteration_list {annex | 1}": [
+                {
+                    "annexId": "@rand_attachment {video}",
+                    "mimeType": "video/mp4",
+                    "availability": "@choice_str {free | mixed | paid}"
+                }
+            ],
+            "@iteration_list {pages | 1}": [
+                {
+                    "uuid": "@uuid",
+                    "paid": "@rand_bool",
+                    "duration": "@range_int {10 | 100}",
+                    "@iteration_list {paragraphs | 2}": [
+                        {
+                            "paragraphId": "@rand_attachment {audio}",
+                            "mimeType": "audio/mpeg",
+                            "duration": "@range_int {10 | 100}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

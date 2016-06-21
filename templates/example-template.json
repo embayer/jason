@@ -1,0 +1,91 @@
+{
+    "@couchdb_db": "dummy",
+    "@iteration_list {my_k | 5}": ["@name"],
+    "@iteration_list {array | 5}": [
+        {
+            "index": "@index",
+            "name": "@name",
+            "nameAffix": "@name_affix",
+            "uuid": "@uuid"
+        }
+    ],
+    "@ref_dict_rand": {
+        "type": "couchdb",
+        "db": "dummy_author",
+        "result_key": "dict_ref_rand",
+        "keys": [
+            "name", "nameAffix", "uuid", "assets"
+        ]
+    },
+    "@ref_dict": {
+        "type": "couchdb",
+        "db": "dummy_author",
+        "doc_id": "0191d5d2e8ac485d99cdb134304d8088",
+        "result_key": "dict_ref",
+        "keys": [
+            "name", "nameAffix", "uuid", "assets"
+        ]
+    },
+    "@ref_dict_exact": {
+        "type": "couchdb",
+        "db": "dummy_author",
+        "doc_id": "0191d5d2e8ac485d99cdb134304d8088",
+        "result_key": "dict_ref_exact",
+        "key": "phoneNumbers"
+    },
+    "@ref_list": {
+        "type": "couchdb",
+        "db": "dummy_author",
+        "result_key": "list_ref",
+        "keys": [
+            "name", "nameAffix", "uuid", "assets"
+        ],
+        "amount": 3
+    },
+    "foo": "bar",
+    "?optional": "Schrödingers Cat",
+    "md5": "@md5",
+    "url": "@url",
+    "facebook_url": "@url {facebook}",
+    "google+_url": "@url {google+}",
+    "twitter_url": "@url {twitter}",
+    "choice_str": "@choice_str {a | b | c}",
+    "list_choice": "@choice_str {noun}",
+    "choice_int": "@choice_int {1 | 2 | 3}",
+    "choices_float": "@choice_float {1.0 | 2.3 | 3.5}",
+    "range_int": "@range_int {1 | 10}",
+    "range_float": "@range_float {1.0 | 10.0}",
+    "rand_int": "@rand_int",
+    "rand_float": "@rand_float",
+    "rand_bool": "@rand_bool",
+    "datetime": "@datetime",
+    "first_name": "@first_name",
+    "last_name": "@choice_str {last_name}",
+    "name_female": "@name_female",
+    "name_male": "@name_male",
+    "name_affix": "@name_affix",
+    "name": "@name",
+    "email": "@email",
+    "phone": "@phone",
+    "lorem": "@lorem",
+    "audio_attachment": "@rand_attachment {audio}",
+    "image_attachment": "@rand_attachment {image}",
+    "video_attachment": "@rand_attachment {video}",
+    "count_pages": "@count_lists {pages}",
+    "chapters": [
+        {
+            "pages": [
+                {"p": 1},
+                {"p": 2},
+                {"p": 3}
+            ]
+        },
+        {
+            "pages": [
+                {"p": 1},
+                {"p": 2},
+                {"p": 3}
+            ]
+        }
+    ]
+}
